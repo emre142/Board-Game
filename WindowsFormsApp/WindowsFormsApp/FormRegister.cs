@@ -12,7 +12,7 @@ namespace WindowsFormsApp
         {
             InitializeComponent();
         }
-        SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\OOPLAB2PROJECT\ooplab2\WindowsFormsApp\WindowsFormsApp\users.mdf;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\OOPLAB2PROJECT\ooplab2-yedek\WindowsFormsApp\WindowsFormsApp\users.mdf;Integrated Security=True");
         public string temp;
         private void button2_Click(object sender, EventArgs e)
         {
