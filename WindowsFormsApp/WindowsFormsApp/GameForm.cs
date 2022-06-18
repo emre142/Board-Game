@@ -150,7 +150,7 @@ namespace WindowsFormsApp
                                         button[x + 1, y].Update();
                                         x++;
                                         moveaudio.Play();
-                                        System.Threading.Thread.Sleep(100);
+                                        System.Threading.Thread.Sleep(350);
                                     }
                                     else if (x != a1 || y != b1)
                                     {
@@ -178,7 +178,7 @@ namespace WindowsFormsApp
                                         button[x - 1, y].Update();
                                         x--;
                                         moveaudio.Play();
-                                        System.Threading.Thread.Sleep(100);
+                                        System.Threading.Thread.Sleep(350);
                                     }
                                     else if (x != a1 || y != b1)
                                     {
@@ -205,7 +205,7 @@ namespace WindowsFormsApp
                                         button[x, y + 1].Update();
                                         y++;
                                         moveaudio.Play();
-                                        System.Threading.Thread.Sleep(100);
+                                        System.Threading.Thread.Sleep(350);
                                     }
                                     else if (x != a1 || y != b1)
                                     {
@@ -232,7 +232,7 @@ namespace WindowsFormsApp
                                         button[x, y - 1].Update();
                                         y--;
                                         moveaudio.Play();
-                                        System.Threading.Thread.Sleep(100);
+                                        System.Threading.Thread.Sleep(350);
                                     }
                                     else if (x != a1 || y != b1)
                                     {
