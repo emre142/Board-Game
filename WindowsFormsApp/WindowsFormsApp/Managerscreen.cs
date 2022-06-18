@@ -25,7 +25,7 @@ namespace WindowsFormsApp
 
         public void Getir()
         {
-            connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\OOPLAB2PROJECT\ooplab2\WindowsFormsApp\WindowsFormsApp\users.mdf;Integrated Security=True");
+            connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\OOPLAB2PROJECT\ooplab2-yedek\WindowsFormsApp\WindowsFormsApp\users.mdf;Integrated Security=True");
             connection.Open();
             if (Properties.Settings.Default.lastUsername != "admin")
                 adapter = new SqlDataAdapter("select * from Table1 where username = '"+ Properties.Settings.Default.lastUsername + "' ", connection);
