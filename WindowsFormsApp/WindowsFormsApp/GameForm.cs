@@ -454,7 +454,7 @@ namespace WindowsFormsApp
                             }
                             if (count <= 3)
                             {
-                                connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\OOPLAB2PROJECT\ooplab2\WindowsFormsApp\WindowsFormsApp\users.mdf;Integrated Security=True");
+                                connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\OOPLAB2PROJECT\ooplab2-yedek\WindowsFormsApp\WindowsFormsApp\users.mdf;Integrated Security=True");
                                 string sorgu = "UPDATE Table1 SET score=@score WHERE username='" + Properties.Settings.Default.lastUsername + "'";
                                 SqlCommand commandAdd = new SqlCommand(sorgu, connection);
                                 commandAdd.Parameters.AddWithValue("@score", bestscrBox1.Text);
