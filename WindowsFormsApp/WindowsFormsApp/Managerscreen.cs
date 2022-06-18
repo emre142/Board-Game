@@ -22,7 +22,6 @@ namespace WindowsFormsApp
         {
             InitializeComponent();
         }
-
         public void Getir()
         {
             connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\OOPLAB2PROJECT\ooplab2-yedek\WindowsFormsApp\WindowsFormsApp\users.mdf;Integrated Security=True");
