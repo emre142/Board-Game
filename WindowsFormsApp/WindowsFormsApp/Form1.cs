@@ -5,7 +5,6 @@ using System.Windows.Forms;
 using System.Data.Sql;
 using System.Data.SqlClient;
 
-
 namespace WindowsFormsApp
 {
     public partial class Form1 : Form
