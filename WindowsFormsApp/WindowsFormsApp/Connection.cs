@@ -35,7 +35,7 @@ namespace WindowsFormsApp
         }
         private void Connection_Load(object sender, EventArgs e)
         {
-            textBox1.Text = "192.168.1.121";
+            textBox1.Text = "192.168.1.103";
             textBox2.Text = "5732";
         }
     }
