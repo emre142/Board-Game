@@ -19,7 +19,7 @@ namespace WindowsFormsApp
         string[] passwords = { "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918", "04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb" };
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\OOPLAB2PROJECT\ooplab2-yedek\WindowsFormsApp\WindowsFormsApp\users.mdf;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDBFilename=|DataDirectory|users.mdf;Integrated Security=True");
             
             string hashedPassword = Sha2.ComputeSha256Hash(textBox2.Text);
 
